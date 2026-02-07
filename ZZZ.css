@@ -3,7 +3,6 @@
 }
 body{
     background-color: rgb(255, 204, 204);
-
 }
 .Whole img{
     border: 0px solid white;
@@ -56,11 +55,11 @@ body{
     animation-direction:alternate-reverse;
     animation-play-state: step(5555); 
 }
-@keyframes Train {
-    from{transform: translateX(-1320px);}
+@keyframes Train{
+    from{transform: translateX(-1320px)}
 }
 @keyframes Shadow{
-    100%{background-color: 0px 0px 50px rgb(249, 0, 0), 0px 0px -50px rgb(249, 0, 0);}
+    100%{background-color: 0px 0px 50px rgb(249, 0, 0), 0px 0px -50px rgb(249, 0, 0)}
 }
 .Rila:hover{
     background-color: hsl(0, 47%, 50%);
@@ -74,15 +73,5 @@ body{
 .container .Music{
     position: fixed;
     bottom: 27.5px;
-    right: 40.2%
-}
-.Fall .F1{
-    position: fixed;
-    bottom: 400px;
-    left: 230px;
-}
-.Fall .F2{
-    position: fixed;
-    bottom: 400px;
-    left: 0px;
+    right: 40.2%;
 }
